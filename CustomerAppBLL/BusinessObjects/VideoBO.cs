@@ -10,7 +10,7 @@ namespace CustomerAppBLL.BusinessObjects
         public int Id { get; set; }
 
         [Required]
-        [MaxLength(20)]
+        [MaxLength(40)]
         [MinLength(2)]
         public string Title { get; set; }
 
